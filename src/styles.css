@@ -16,6 +16,17 @@
 .header-content,
 .hero-content {
   width: 80%;
+}
+
+.information-content {
+  width: 70%;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.header-content, 
+.hero-content, 
+.information-content {
   margin: 0 auto;
 }
 
@@ -85,4 +96,40 @@
   width: 50%;
   height: auto;
   border-radius: 4px;
+}
+
+.information-content h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+.information-items-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.information-item {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  gap: 5px;
+}
+
+.information-item p {
+  font-size: 18px;
+  font-weight: 100;
+  color: #babbbb;
+}
+
+.information-item-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 5px solid #3882f6;
 }
