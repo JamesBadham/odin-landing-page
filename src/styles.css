@@ -14,19 +14,21 @@
 }
 
 .header-content,
-.hero-content {
+.hero-content,
+.signup-content {
   width: 80%;
 }
 
-.information-content {
-  width: 70%;
-  text-align: center;
-  padding: 40px 0;
+.information-content,
+.quote-content {
+  width: 50%;
 }
 
 .header-content, 
 .hero-content, 
-.information-content {
+.information-content,
+.quote-content,
+.signup-content {
   margin: 0 auto;
 }
 
@@ -80,7 +82,8 @@
   font-weight: 900;
 }
 
-.hero-content-text button {
+.hero-content-text button,
+.signup-button {
     max-width: 30%;
     flex-basis: 20%;
     padding: 5px 10px;
@@ -96,6 +99,11 @@
   width: 50%;
   height: auto;
   border-radius: 4px;
+}
+
+.information-content {
+  text-align: center;
+  padding: 40px 0;
 }
 
 .information-content h2 {
@@ -133,3 +141,45 @@
   border-radius: 10px;
   border: 5px solid #3882f6;
 }
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote-content {
+  padding: 60px 0;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937
+}
+
+.quote-author {
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.signup {
+  padding: 60px 0;
+}
+
+.signup-content {
+  padding: 30px 80px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2882f6;
+  border-radius: 5px;
+}
+
+.signup-text {
+  color: #f9faf8
+}
+
+.signup-button {
+  border: 2px solid #f9faf8;
+}
+
